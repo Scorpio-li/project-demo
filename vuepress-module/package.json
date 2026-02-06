@@ -1,0 +1,30 @@
+{
+    "name": "vuepress-module",
+    "version": "1.0.0",
+    "description": "Vuepress文档",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vuepress dev docs",
+        "build": "vuepress build docs",
+        "docs:build": "vuepress build docs",
+        "start": "npm run docs:dev",
+        "d": "bash deploy.sh"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://gitlab.com/blogtools/vuepress-module.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://gitlab.com/blogtools/vuepress-module/issues"
+    },
+    "homepage": "https://gitlab.com/blogtools/vuepress-module#readme",
+    "devDependencies": {
+        "vuepress": "^1.8.2",
+        "@vuepress/plugin-back-to-top": "^1.5.1",
+        "@vuepress/plugin-nprogress": "^1.5.1"
+    }
+}
