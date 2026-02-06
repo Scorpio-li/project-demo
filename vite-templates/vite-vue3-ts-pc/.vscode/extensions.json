@@ -1,0 +1,13 @@
+{
+  "recommendations": ["johnsoncodehk.volar"],
+  "editor.formatOnSave": true,//保存时格式化
+  "files.autoSave": "onFocusChange", //失去焦点时保存
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript"
+  ]
+}

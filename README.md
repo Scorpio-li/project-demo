@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: Lizhiliang
  * @Date: 2026-02-06 14:54:19
- * @LastEditTime: 2026-02-06 15:03:28
+ * @LastEditTime: 2026-02-06 15:17:37
  * @LastEditors: lizhiliang
  * @Usage: 
 -->
@@ -18,3 +18,6 @@
 
 vite + vue3 + typescript + vantUI 构建移动端项目模板
 
+## 2. vite-vue3-ts-pc
+
+vite + vue3 + typescript + ElementPlus 构建PC端项目模板

@@ -1,0 +1,8 @@
+//styles/index.scss
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '@/styles/element-ui.scss'; //组件库的样式覆盖
+@import '@/styles/variables.scss'; //全局变量
+@import '@/styles/nprogress.scss';
+@import '@/styles/theme.scss'; // 主题配置

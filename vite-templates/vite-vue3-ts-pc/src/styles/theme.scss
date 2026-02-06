@@ -1,0 +1,23 @@
+// /* 实现方式一 */
+// :root {
+//   --theme-bg: grey; // 背景色
+//   --theme-color: #ffffff; // 字体色
+//   --theme-boder-color: blue; // 边框色
+// }
+
+
+/* 实现方式二 */
+/* 默认值：light */
+:root {
+  --theme-bg: #fff;
+  --theme-color: rgb(51, 50, 50);
+  --theme-img-bg: #fff;
+  --theme-boder-color: #d6d6d6;
+}
+
+/* 暗黑：dark */
+[data-theme='dark'] {
+  --theme-bg: rgb(51, 50, 51);
+  --theme-color: #fff;
+  --theme-boder-color: blue;
+}
