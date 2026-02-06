@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowJs": true, 
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "skipLibCheck": true,
+    "esModuleInterop": true,                  /* 创建命名空间导入 */
+    "allowSyntheticDefaultImports": true,     /* 允许从没有默认导出的模块中默认导入 */
+
+    /* Bundler mode */
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "preserve",
+
+    /* Linting */
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    },
+    "types": ["vite/client"]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "./src/auto-imports.d.ts" // 和 AutoImport dts保持一致 引入即可
+  ],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
