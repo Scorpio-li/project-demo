@@ -1,3 +1,11 @@
+<!--
+ * @Description: 
+ * @Author: Lizhiliang
+ * @Date: 2026-02-09 17:22:27
+ * @LastEditTime: 2026-02-09 17:22:49
+ * @LastEditors: lizhiliang
+ * @Usage: 
+-->
 # vite-vue3-ts-h5
 
 移动端 h5 项目模板
